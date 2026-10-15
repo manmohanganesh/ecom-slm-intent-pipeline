@@ -1,0 +1,23 @@
+# Environments
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Data & Models (Crucial: We never commit raw data or model weights)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.gguf
+*.bin
+*.pt
+*.safetensors
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
